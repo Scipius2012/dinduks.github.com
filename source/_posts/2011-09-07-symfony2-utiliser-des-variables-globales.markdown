@@ -53,4 +53,8 @@ Vous pouvez sauter cette étape si vous aviez déclaré la variable dans _parame
         Ma variable: {{ maVariableTwig }}
     </p>
 
+#### Tester l'existence d'une variable globale dans le contrôleur
+
+    $this->container->hasParameter('maVariable'));
+
 Enjoy. ;)
